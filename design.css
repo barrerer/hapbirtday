@@ -594,5 +594,20 @@ body:has(.final) {
         padding: 45px 18px 35px;
     }
 
+    @media (max-width: 600px) {
+    .ILY .photo {
+        position: static;
+        width: 135px;
+        margin: 25px auto;
+    }
+
+    .ILY .photo-left {
+        transform: rotate(-5deg);
+    }
+
+    .ILY .photo-right {
+        transform: rotate(5deg);
+    }
+}
     .final h1 {
         font-size: 34
